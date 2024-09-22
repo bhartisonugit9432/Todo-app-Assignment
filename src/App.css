@@ -1,0 +1,34 @@
+
+.h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-area .item-container input{
+    padding: 8px 10px;
+    width: 300px;
+}
+.input-area .item-container .s-button{
+    padding: 8px 10px;
+}
+@media(max-width:992px){
+    .input-area .item-container input{
+        padding: 8px 10px;
+        width: 100%;
+    } 
+}
+
